@@ -1,0 +1,13 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+}
+.danger{
+  background-color: red;
+  padding: 0.2em;
+  border-radius: 0.5em ;
+  color: white;
+  cursor: pointer;
+}

@@ -1,0 +1,11 @@
+<svg width="121px" height="51px" viewBox="-0.5 -0.5 121 51" >
+    <defs />
+    <g>
+        <rect x="0" y="0" width="120" height="10" fill="rgb(255, 255, 255)" stroke="rgb(0, 0, 255)"
+            pointer-events="all" />
+        <rect x="0" y="20" width="120" height="10" fill="rgb(255, 255, 255)" stroke="rgb(0, 0, 255)"
+            pointer-events="all" />
+        <rect x="0" y="40" width="120" height="10" fill="rgb(255, 255, 255)" stroke="rgb(0, 0, 255)"
+            pointer-events="all" />
+    </g>
+</svg>

@@ -1,0 +1,14 @@
+.card{
+    margin: 1rem auto;
+    box-shadow: 1px 4px 7px -4px black;
+    min-width: 16rem;
+    max-width: 60%;
+    background-color: #6ecece;
+    padding: 1rem 2rem;
+}
+.title{
+    color: #8f3da8;
+}
+.body{
+    color: black;
+}
