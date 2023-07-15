@@ -72,6 +72,7 @@ function Todos() {
     }
 
     return (
+        <div>
         <div className='box'>
             <table className='center'>
                 {todos.length ?
@@ -90,7 +91,10 @@ function Todos() {
                 </tbody>
             </table>
 
-            <div className='todo_input' >
+            
+        </div>
+
+        <div className='todo_input' >
                 <input ref={inputRef} type="text" placeholder='Description' name='desc' value={todo.desc} onChange={(e) => { setTodo({ ...todo, desc: e.target.value }) }} onDragEnter={add_todo} />
                 <input type="checkbox" placeholder='Mark' name='mark' checked={todo.isDone} onChange={(e) => { setTodo({ ...todo, isDone: e.target.checked }) }} />
             </div>
