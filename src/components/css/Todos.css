@@ -45,9 +45,13 @@ input[type='text'] {
 
 .todo_input{
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
   margin: 1rem 5rem;
   gap: 1em;
+}
+
+.todo_input > input{
+  max-width:20rem;
 }
 
 @media screen and (max-width:600px){
