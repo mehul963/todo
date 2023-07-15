@@ -26,7 +26,7 @@ td {
 
 input[type='text'] {
   padding: 0.5em;
-  width: 80%;
+  flex-grow: 1;
 }
 
 .description {
@@ -41,6 +41,13 @@ input[type='text'] {
   border-radius: 0.2em;
   margin: 1em;
   width: 7em;
+}
+
+.todo_input{
+  display: flex;
+  justify-content: space-around;
+  margin: 1rem 5rem;
+  gap: 1em;
 }
 
 @media screen and (max-width:600px){

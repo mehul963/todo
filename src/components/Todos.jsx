@@ -90,7 +90,7 @@ function Todos() {
                 </tbody>
             </table>
 
-            <div style={{ display: 'flex', justifyContent: 'space-around', margin: '1rem 5rem' }} >
+            <div className='todo_input' >
                 <input ref={inputRef} type="text" placeholder='Description' name='desc' value={todo.desc} onChange={(e) => { setTodo({ ...todo, desc: e.target.value }) }} onDragEnter={add_todo} />
                 <input type="checkbox" placeholder='Mark' name='mark' checked={todo.isDone} onChange={(e) => { setTodo({ ...todo, isDone: e.target.checked }) }} />
             </div>
